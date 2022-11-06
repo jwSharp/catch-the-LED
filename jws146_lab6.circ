@@ -60,9 +60,90 @@
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(330,100)" to="(330,170)"/>
+    <wire from="(90,100)" to="(90,170)"/>
+    <wire from="(130,190)" to="(130,200)"/>
+    <wire from="(260,160)" to="(310,160)"/>
+    <wire from="(280,180)" to="(280,200)"/>
+    <wire from="(70,100)" to="(70,180)"/>
+    <wire from="(350,100)" to="(350,180)"/>
+    <wire from="(140,180)" to="(140,200)"/>
+    <wire from="(50,100)" to="(50,190)"/>
+    <wire from="(270,170)" to="(270,200)"/>
+    <wire from="(150,170)" to="(150,200)"/>
+    <wire from="(240,140)" to="(270,140)"/>
     <wire from="(70,50)" to="(100,50)"/>
     <wire from="(70,30)" to="(100,30)"/>
+    <wire from="(100,220)" to="(130,220)"/>
+    <wire from="(210,100)" to="(210,200)"/>
+    <wire from="(160,160)" to="(160,200)"/>
+    <wire from="(260,160)" to="(260,200)"/>
     <wire from="(130,40)" to="(150,40)"/>
+    <wire from="(170,150)" to="(170,200)"/>
+    <wire from="(50,190)" to="(130,190)"/>
+    <wire from="(250,150)" to="(250,200)"/>
+    <wire from="(220,120)" to="(230,120)"/>
+    <wire from="(70,180)" to="(140,180)"/>
+    <wire from="(180,140)" to="(180,200)"/>
+    <wire from="(240,140)" to="(240,200)"/>
+    <wire from="(270,170)" to="(330,170)"/>
+    <wire from="(190,130)" to="(190,200)"/>
+    <wire from="(90,170)" to="(150,170)"/>
+    <wire from="(230,130)" to="(230,200)"/>
+    <wire from="(110,160)" to="(160,160)"/>
+    <wire from="(200,120)" to="(200,200)"/>
+    <wire from="(220,120)" to="(220,200)"/>
+    <wire from="(190,100)" to="(190,120)"/>
+    <wire from="(230,100)" to="(230,120)"/>
+    <wire from="(130,150)" to="(170,150)"/>
+    <wire from="(250,150)" to="(290,150)"/>
+    <wire from="(170,100)" to="(170,130)"/>
+    <wire from="(250,100)" to="(250,130)"/>
+    <wire from="(150,140)" to="(180,140)"/>
+    <wire from="(150,100)" to="(150,140)"/>
+    <wire from="(270,100)" to="(270,140)"/>
+    <wire from="(170,130)" to="(190,130)"/>
+    <wire from="(230,130)" to="(250,130)"/>
+    <wire from="(130,100)" to="(130,150)"/>
+    <wire from="(190,120)" to="(200,120)"/>
+    <wire from="(290,100)" to="(290,150)"/>
+    <wire from="(310,100)" to="(310,160)"/>
+    <wire from="(110,100)" to="(110,160)"/>
+    <wire from="(280,180)" to="(350,180)"/>
+    <comp lib="5" loc="(150,100)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(190,100)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="label" val="V"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="5" loc="(250,100)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(90,100)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(70,50)" name="Button"/>
+    <comp lib="5" loc="(270,100)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(130,40)" name="OR Gate"/>
+    <comp lib="5" loc="(290,100)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(110,100)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(310,100)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(70,30)" name="Clock">
+      <a name="label" val="CMD+T"/>
+    </comp>
+    <comp lib="5" loc="(330,100)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="0" loc="(150,40)" name="Tunnel">
       <a name="label" val="CLK"/>
       <a name="color" val="#ffff00"/>
@@ -70,10 +151,30 @@
     <comp lib="6" loc="(181,19)" name="Text">
       <a name="text" val="connect clock signal to registers"/>
     </comp>
-    <comp lib="5" loc="(70,50)" name="Button"/>
-    <comp lib="1" loc="(130,40)" name="OR Gate"/>
-    <comp lib="0" loc="(70,30)" name="Clock">
-      <a name="label" val="CMD+T"/>
+    <comp lib="5" loc="(170,100)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(210,100)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(50,100)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(230,100)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="2" loc="(130,220)" name="Decoder">
+      <a name="facing" val="north"/>
+      <a name="select" val="4"/>
+    </comp>
+    <comp lib="5" loc="(350,100)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(130,100)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(70,100)" name="LED">
+      <a name="facing" val="south"/>
     </comp>
   </circuit>
 </project>
